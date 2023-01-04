@@ -9,7 +9,7 @@ import org.springframework.context.support.GenericXmlApplicationContext;
  * 내용 : 스프링 AOP 실습하기
  * 
  * 스프링 AOP(Aspect Oriented Programming)
- *  - AOP는 관점 지향 프로그래밍으로 OOP로 독립적으로 분리하기 어려운 부가로 직을 모듈화하는 기법
+ *  - AOP는 관점 지향 프로그래밍으로 OOP로 독립적으로 분리하기 어려운 부가로직을 모듈화하는 기법
  *  - 핵심 관심과 전체에 적용되는 공통 관심을 분리해서 프로그래밍하는 방식
  *  
  *  주요용어
