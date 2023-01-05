@@ -26,11 +26,11 @@ public class User3DAO {
 		return mybatis.selectList("user3.selectUser3s");
 	}
 	
-	public void updateUser2(User3VO vo) {
+	public void updateUser3(User3VO vo) {
 		mybatis.update("user3.updateUser3", vo);
 	}
 	
 	public void deleteUser3(String uid) {
-		mybatis.delete("user3.delete3",uid);
+		mybatis.delete("user3.deleteUser3", uid);
 	}
 }

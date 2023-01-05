@@ -25,4 +25,12 @@ public class User3Service {
 	public List<User3VO> selectUser3s() {
 		return dao.selectUser3s();
 	}
+	
+	public void updateUser3(User3VO vo) {
+		dao.updateUser3(vo);
+	}
+	
+	public void deleteUser3(String uid) {
+		dao.deleteUser3(uid);
+	}
 }
