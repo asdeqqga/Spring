@@ -18,6 +18,7 @@
 			<th>생일</th>
 			<th>나이</th>
 			<th>주소</th>
+			<th>휴대폰</th>
 			<th>관리</th>
 		</tr>
 		<c:forEach var="user" items="${users}">
