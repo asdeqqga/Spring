@@ -14,6 +14,7 @@
 	<a href="/Ch05/user4/list">user4 목록</a><br>
 	<a href="/Ch05/user5/list">user5 목록</a><br>
 	<a href="/Ch05/user6/list">user6 목록</a><br>
+	<a href="/Ch05/user7/list">user7 목록</a><br>
 	<a href="/Ch05/member/list">member 목록</a><br>
 </body>
 </html>
