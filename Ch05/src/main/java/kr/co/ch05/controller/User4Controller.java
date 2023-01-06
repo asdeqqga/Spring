@@ -28,13 +28,13 @@ public class User4Controller {
 		return "/user4/register";
 	}
 	
-	@PostMapping("user4/register")
+	@PostMapping("/user4/register")
 	public String register(User4VO vo) {
 		service.insertUser4(vo);
 		return "redirect:/user4/list";
 	}
 	
-	@GetMapping("user4/modify")
+	@GetMapping("/user4/modify")
 	public String modify(String seq, Model model) {
 		User4VO user = service.selectUser4(seq);
 		model.addAttribute("user",user);

@@ -29,13 +29,13 @@ public class User3Controller {
 		return "/user3/register";
 	}
 	
-	@PostMapping("user3/register")
+	@PostMapping("/user3/register")
 	public String register(User3VO vo) {
 		service.insertUser3(vo);
 		return "redirect:/user3/list";
 	}
 	
-	@GetMapping("user3/modify")
+	@GetMapping("/user3/modify")
 	public String modify(String uid, Model model) {
 		User3VO user = service.selectUser3(uid);
 		model.addAttribute("user",user);

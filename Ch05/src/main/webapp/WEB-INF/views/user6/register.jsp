@@ -3,10 +3,10 @@
 <html>
 	<head>	
 		<meta charset="UTF-8">
-		<title>user5::register</title>
+		<title>user6::register</title>
 	</head>
 <body>
-	<h3>user5 등록</h3>
+	<h3>user6 등록</h3>
 	<a href="/Ch05">Ch05 메인</a>
 	<a href="/Ch05/user6/list">user5 목록</a>
 	
@@ -30,7 +30,7 @@
 			</tr>
 			<tr>
 				<td>주소</td>
-				<td><input type="text" name="address"></td>
+				<td><input type="text" name="addr"></td>
 			</tr>
 			<tr>
 				<td>휴대폰</td>
